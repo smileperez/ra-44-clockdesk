@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'Calculatrix7Regular'; 
+	src: local('Calculatrix7Regular'),
+		url(./fonts/Calculatrix7Regular.ttf); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.wrapper {
+    margin: auto auto;
+    width: 60%;
+}
+
+.container {
+    padding-top: 10%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.revers-block {
+    flex-direction: column-reverse;
+}
+
+.input-label {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    padding: 5px;
+    font-size: 1.8rem;
+    border-radius: 0%;
+    border-width: 1px;
+    outline: none;
+    width: 12rem;
+    height: 3rem;
+}
+
+.form-btn {
+    font-size: 1.4rem;
+    border-radius: 0%;
+    border-width: 1px;
+    outline: none;
+    background-color: white;
+    width: 12rem;
+    height: 3rem;
+}
+
+.form-btn:hover {
+    background-color: lightgray;
+}
+
+.clockboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whatch {
+    padding: 1rem;
+    background-color: silver;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    width: 12rem;
+}
+
+.whatch-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatch-label {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.whatch-btn {
+    border-radius: 50%;
+    border-width: 1px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.whatch-btn:hover {
+    background-color: lightgray;
+}
+
+.whatch-time {
+    display: flex;
+}
+
+.time {
+    margin-top: 0.5rem;
+    font-weight: 100;
+    font-family: 'Calculatrix7Regular';
+    font-size: 2rem;
+}
+
+.time-divider {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
